@@ -1,0 +1,85 @@
+body {
+
+color: black;
+background: rgba(61, 48, 48, 0.205);
+margin: 0px;
+font-family: "DM Serif Text", serif;
+margin-bottom: 80px;
+}
+
+header {
+    border-bottom: solid 2px blue;
+    padding: 20px;
+    font-size: 34px;
+}
+
+.chamada{
+    background: rgb(19, 162, 197);
+    padding-left: 80px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    display: flex;
+    padding-right: 20px;
+}
+
+.chamada-texto h1{
+    font-size: 40px;
+}
+
+.chamada-texto h2{
+    font-size: 20px;
+}
+
+.clipes-de-filmes{
+    margin-top: 30px;
+    padding-left: 30px;
+    padding-right: 20px;
+    background: rgba(61, 48, 48, 0.144);
+    padding-bottom: 30px;
+}
+.batman{
+    display: flex;
+    overflow-x: auto;
+    gap: 5px;
+    padding-left: 20px;
+}
+
+.categoria-videos{
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categoria{
+    padding-left: 30px;
+    padding-right: 20px;
+    gap: 10px;
+    margin-top: 30px;
+    background: rgba(61, 48, 48, 0.144);
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+
+.categoria-videos img{
+    opacity: 0.5;
+    height: 200px;
+}
+
+.categoria-videos img:hover{
+    opacity: 1.0;
+    border: 2px solid blue;
+}
+
+.chamada h1{
+    color: rgb(71, 61, 58);
+}
+
+.chamada h2{
+    color:rgb(71, 61, 58);
+}
+
+.clipe-de-cena{
+    overflow-x: auto;
+    display: flex;
+    gap: 5px;
+}
